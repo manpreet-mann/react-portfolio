@@ -9,7 +9,7 @@ function Education() {
     window.open(url, "_blank", "noreferrer");
   };
   return (
-    <div className="bg-[#e64072] left-0 right-0 relative z-10  flex flex-col items-center py-8 font-['Helvetica']">
+    <div className="bg-[#222222] left-0 right-0 relative z-10  flex flex-col items-center py-8 font-['Helvetica']">
       <div className="w-10/12 ">
         <div className="LatestWork  text-white text-[38px] tracking-tighter font-extrabold  leading-[64px] mb-8 uppercase">
           Education :
@@ -17,9 +17,9 @@ function Education() {
         <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-x-8 gap-y-4">
           <div className="flex flex-col gap-6">
             {educations.map((education) => (
-                  <div className="px-2 py-8 relative text-white rounded-md bg-[#222222] flex flex-col gap-y-2 shadow-md hover:scale-105 transition ease-in-out duration-500">
+                  <div className="px-2 py-8 relative text-[#222222] rounded-md bg-[#f678a7] flex flex-col gap-y-2 shadow-md hover:scale-105 transition ease-in-out duration-500">
                     <div className="flex justify-center">
-                      <p className="text-base text-[#FACED4] font-medium">
+                      <p className="text-base text-[#222222] font-medium">
                         {education.duration}
                       </p>
                     </div>
