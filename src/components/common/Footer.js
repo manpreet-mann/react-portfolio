@@ -9,7 +9,7 @@ function Footer() {
   };
 
   return (
-    <div className="bg-[#222222] left-0 right-0 relative z-10  py-10 flex flex-col items-center font-['Helvetica']  ">
+    <div className="bg-[#e64072] left-0 right-0 relative z-10  py-10 flex flex-col items-center font-['Helvetica']  ">
       <div className="flex md:flex-row md:justify-between md:items-start flex-col items-center gap-y-8 w-10/12  ">
         <div className="Personal  text-white text-3xl font-bold  leading-loose tracking-tighter">
           Portfolio
