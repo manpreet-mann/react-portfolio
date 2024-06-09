@@ -80,7 +80,7 @@ function Form() {
         Thank you for your interest in reaching out. Whether you have a question, a collaboration idea, or simply wish to say hello, I am here to listen. Please choose the method that suits you best.
         </div>
         {/* name as input*/}
-        <label for="name" className="w-10/12">
+        <label htmlFor="name" className="w-10/12">
           <input
             name="name"
             className=" w-full py-3 bg-white rounded-md border border-red-200 placeholder:text-orange-950 placeholder:text-opacity-60 placeholder:text-base placeholder:font-normal placeholder:leading-loose px-3 focus:border-[#5928E5] focus:outline-none focus:ring-[#5928E5] focus:ring-1"
@@ -96,7 +96,7 @@ function Form() {
         </label>
 
         {/*email as input  */}
-        <label for="email" className="w-10/12">
+        <label htmlFor="email" className="w-10/12">
           <input
             name="email"
             className=" w-full py-3 bg-white rounded-md border border-red-200 placeholder:text-orange-950 placeholder:text-opacity-60 placeholder:text-base placeholder:font-normal placeholder:leading-loose px-3 focus:border-[#5928E5] focus:outline-none focus:ring-[#5928E5] focus:ring-1"
@@ -112,7 +112,7 @@ function Form() {
         </label>
 
         {/* company name as input */}
-        <label for="company" className="w-10/12">
+        <label htmlFor="company" className="w-10/12">
           <input
             name="company"
             className=" w-full py-3 bg-white rounded-md border border-red-200 placeholder:text-orange-950 placeholder:text-opacity-60 placeholder:text-base placeholder:font-normal placeholder:leading-loose px-3 focus:border-[#5928E5] focus:outline-none focus:ring-[#5928E5] focus:ring-1"
@@ -128,7 +128,7 @@ function Form() {
         </label>
 
         {/* message as input */}
-        <label for="message" className="w-10/12">
+        <label htmlFor="message" className="w-10/12">
           <textarea
             name="message"
             className=" w-full py-3 bg-white rounded-md border border-red-200 placeholder:text-orange-950 placeholder:text-opacity-60 placeholder:text-base placeholder:font-normal placeholder:leading-loose px-3 focus:border-[#5928E5] focus:outline-none focus:ring-[#5928E5] focus:ring-1"
