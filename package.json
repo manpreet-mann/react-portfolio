@@ -40,9 +40,9 @@
     "type": "git",
     "url": "git+https://github.com/thepranaygupta/react-tailwind-css-starter-pack.git"
   },
-  "author": "Pranay Gupta",
+  "author": "Manpreet Mann",
   "bugs": {
-    "url": "https://github.com/thepranaygupta/react-tailwind-css-starter-pack/issues"
+    "url": "https://github.com/manpreet-mann/react-portfolio"
   },
   "scripts": {
     "start": "react-scripts start",
