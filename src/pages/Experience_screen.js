@@ -1,12 +1,12 @@
 import React, { useEffect } from "react";
 import { motion } from "framer-motion";
 import { experiences } from "../utils/data/experienceData";
-function E_page() {
+function ExperiencePage() {
   const openInNewTab = (url) => {
     window.open(url, "_blank", "noreferrer");
   };
   useEffect(() => {
-    // 👇️ scroll to top on page load
+    // scroll to top on page load
     window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
   }, []);
   return (
@@ -64,4 +64,4 @@ function E_page() {
   );
 }
 
-export default E_page;
+export default ExperiencePage;

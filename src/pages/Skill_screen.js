@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { data } from "../utils/data/webData";
-function S_page() {
+function SkillsPage() {
   // const openInNewTab = (url) => {
   //   window.open(url, "_blank", "noreferrer");
   // };
@@ -22,7 +22,7 @@ function S_page() {
               className="flex flex-col bg-[#FFD9D9] rounded-md px-4 py-4 transition duration-300 ease-in-out hover:bg-[#e64072] hover:text-white text-black hover:scale-105"
               key={index}
             >
-              <img src={item.image} className="w-12 h-12" />
+              <img src={item.image} className="w-12 h-12" alt="skills Heading"/>
               <div className="font-bold tracking-tighter text-[22px]">
                 {item.heading}
               </div>
@@ -37,4 +37,4 @@ function S_page() {
   );
 }
 
-export default S_page;
+export default SkillsPage;

@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import Form from "../components/common/Form";
 import { motion } from "framer-motion";
 import communicate from "../assests/contact/communicate.png"
-function C_page() {
+function ContactPage() {
   useEffect(() => {
     // 👇️ scroll to top on page load
     window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
@@ -35,4 +35,4 @@ function C_page() {
   );
 }
 
-export default C_page;
+export default ContactPage;

@@ -33,25 +33,26 @@ function Home() {
             className="cursor-pointer w-9 h-9 hover:scale-110 transition duration-300 ease-in-out"
             onClick={() => openInNewTab(contactsData.linkedIn)}
           >
-            <img src={linkedin} />
+            <img src={linkedin} alt="Linkedin"/>
           </div>
           <div
             className="cursor-pointer w-9 h-9 hover:scale-110 transition duration-300 ease-in-out"
             onClick={() => openInNewTab(contactsData.github)}
           >
-            <img src={github} />
+            <img src={github} alt="Github" />
           </div>
           <div
             className="cursor-pointer w-9 h-9 hover:scale-110 transition duration-300 ease-in-out"
             onClick={() => openInNewTab(contactsData.twitter)}
           >
-            <img src={xtwitter} />
+            <img src={xtwitter} alt="Twitter"/>
           </div>
         </div>
         <div className="flex flex-row w-full gap-x-4">
           <a
             role="button"
             target="_blank"
+            rel="noopener noreferrer"
             href={contactsData.resume}
             className="bg-[#222222] rounded-md text-white text-base font-semibold font-['Helvetica'] capitalize py-2 cursor-pointer flex flex-row items-center justify-center hover:scale-105 transition ease-in-out duration-300 px-4"
             style={{ border: "2px solid #ffffff" }}

@@ -2,10 +2,10 @@ import React, { useEffect } from "react";
 import block from "../assests/block.png";
 import { NavLink } from "react-router-dom";
 import { contactsData } from "../utils/data/contactsData";
-function A_page() {
-  const heading = "About Me";
-  const title =
-    "Please take a moment to review my profile, where you can also find my LeetCode and GitHub accounts for further insight and exploration.";
+function AboutPage() {
+  // const heading = "About Me";
+  // const title =
+  //   "Please take a moment to review my profile, where you can also find my LeetCode and GitHub accounts for further insight and exploration.";
 
   useEffect(() => {
     // 👇️ scroll to top on page load
@@ -26,9 +26,10 @@ function A_page() {
             {contactsData.aboutMe}
           </div>
         </div>
-        <img alt="photo of girl"
+        <img 
           src="https://media.giphy.com/media/L1R1tvI9svkIWwpVYr/giphy.gif"
           className=" lg:w-7/12 md:w-9/12 w-10/12  mb-4 py-8"
+          alt="Girl"
         />
       </div>
       <div className="bg-red-100 grid lg:grid-cols-3 grid-cols-1 place-items-center items-center gap-y-4 py-8">
@@ -45,11 +46,11 @@ function A_page() {
           my accomplishments and skills is greatly appreciated.
         </div>
         <div>
-          <img src={block} className="max-w-[350px] max-h-[300px]" />
+          <img src={block} className="max-w-[350px] max-h-[300px]" alt="About"/>
         </div>
       </div>
     </div>
   );
 }
 
-export default A_page;
+export default AboutPage;

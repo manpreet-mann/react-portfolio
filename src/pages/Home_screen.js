@@ -3,7 +3,7 @@ import Home from '../components/home/Home'
 import Skills from '../components/home/Skills'
 import Education from '../components/home/Education'
 import About from '../components/home/About'
-function H_page() {
+function HomePage() {
   useEffect(() => {
     // 👇️ scroll to top on page load
     window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
@@ -28,4 +28,4 @@ function H_page() {
   )
 }
 
-export default H_page
+export default HomePage;

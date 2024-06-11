@@ -9,7 +9,7 @@ function About() {
       </div>
       <div className="flex lg:flex-row lg:justify-between flex-col items-center  gap-y-12 md:w-10/12 w-11/12 py-10">
         <div className="flex flex-col gap-y-4 w-7/12">
-          <img src={aboutData.icon1} className="w-[40px] h-[40px]"/>
+          <img src={aboutData.icon1} className="w-[40px] h-[40px]" alt="About"/>
           <div className="MakingYourProjects  text-[#222222] text-[26px] font-extrabold tracking-tighter ">
             1. {aboutData.heading1}
           </div>
@@ -36,7 +36,7 @@ function About() {
           ></motion.img>
         </div>
         <div className="flex flex-col gap-y-4 w-7/12">
-        <img src={aboutData.icon2} className="w-[40px] h-[40px]"/>
+        <img src={aboutData.icon2} className="w-[40px] h-[40px]" alt="About"/>
           <div className="MakingYourProjects  text-[#222222] text-[26px] font-extrabold tracking-tighter ">
             2. {aboutData.heading2}
           </div>
@@ -47,7 +47,7 @@ function About() {
       </div>
       <div className="flex lg:flex-row lg:justify-between flex-col items-center  gap-y-12 w-10/12 py-10">
         <div className="flex flex-col gap-y-4 w-7/12">
-          <img src={aboutData.icon3} className="w-[40px] h-[40px]"/>
+          <img src={aboutData.icon3} className="w-[40px] h-[40px]" alt="About"/>
           <div className="MakingYourProjects  text-[#222222] text-[26px] font-extrabold tracking-tighter ">
             3. {aboutData.heading3}
           </div>

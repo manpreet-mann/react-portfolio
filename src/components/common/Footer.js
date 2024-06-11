@@ -36,7 +36,7 @@ function Footer() {
             onClick={() => openInNewTab(contactsData.linkedIn)}
           >
             <div className="cursor-pointer w-6 h-6">
-              <img src={linkedin} />
+              <img src={linkedin} alt="Linkedin" />
             </div>
             <div className="cursor-pointer font-medium tracking-wider hover:text-[#FFD9D8] hover:underline-offset-4 hover:scale-105 hover:underline transition ease-in-out duration-300 ">LinkedIn</div>
           </div>

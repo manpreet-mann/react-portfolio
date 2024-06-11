@@ -1,13 +1,12 @@
-import React, { useEffect, useRef } from "react";
+// import React, { useEffect, useRef } from "react";
 import { educations } from "../../utils/data/educationData";
 import eduIcon from "../../assests/education/education_icon.svg"
-import SchoolIcon from '@mui/icons-material/School';
 
 import laptop from "../../assests/education/laptop.jpg";
 function Education() {
-  const openInNewTab = (url) => {
-    window.open(url, "_blank", "noreferrer");
-  };
+  // const openInNewTab = (url) => {
+  //   window.open(url, "_blank", "noreferrer");
+  // };
   return (
     <div className="bg-[#222222] left-0 right-0 relative z-10  flex flex-col items-center py-8 font-['Helvetica']">
       <div className="w-10/12 ">
@@ -24,7 +23,7 @@ function Education() {
                       </p>
                     </div>
                     <div className="flex items-center gap-x-8 px-3">
-                      <img src={eduIcon} className="w-[40px] h-[40px] self-start"/>
+                      <img src={eduIcon} className="w-[40px] h-[40px] self-start" alt="Education"/>
                       <div>
                         <p className="text-base sm:text-xl mb-2 font-extrabold uppercase">
                           {education.title}
@@ -37,7 +36,7 @@ function Education() {
                   </div>
             ))}
           </div>
-          <img src={laptop} className=" w-full h-full "></img>
+          <img src={laptop} className=" w-full h-full " alt="Laptop"></img>
         </div>
       </div>
     </div>

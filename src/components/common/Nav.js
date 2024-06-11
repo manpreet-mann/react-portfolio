@@ -3,10 +3,10 @@ import { NavLink } from "react-router-dom";
 import Short from "./MenuBar";
 import { contactsData } from "../../utils/data/contactsData";
 function Nav() {
-  const [add, setAdd] = useState("none");
-  function handleHighlightTab() {
-    setAdd("underline white solid");
-  }
+  // const [add, setAdd] = useState("none");
+  // function handleHighlightTab() {
+  //   setAdd("underline white solid");
+  // }
   return (
     <div className="bg-[#EFF1F3] flex flex-row top-0 left-0 right-0 py-2 fixed justify-around items-center z-20  shadow-b shadow-lg ">
       {/* my name as the main logo header */}

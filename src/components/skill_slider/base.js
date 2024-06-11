@@ -2,7 +2,7 @@ import { skillsData } from "../../utils/data/skillsData";
 import { skillsImage } from "../../utils/skillsImage";
 import Marquee from "react-fast-marquee";
 
-function Skills_Slider() {
+function SkillsSlider() {
   return (
     <div id="skills" className="relative z-50 ">
       {/* skill slider showing different skills in blocks */}
@@ -43,4 +43,4 @@ function Skills_Slider() {
   );
 }
 
-export default Skills_Slider;
+export default SkillsSlider;

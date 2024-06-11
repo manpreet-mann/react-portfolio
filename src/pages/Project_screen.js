@@ -4,7 +4,7 @@ import github from "../assests/projects/github.svg";
 import web from "../assests/projects/web.svg";
 import { contactsData } from "../utils/data/contactsData";
 
-function P_page() {
+function ProjectPage() {
   const openInNewTab = (url) => {
     window.open(url, "_blank", "noreferrer");
   };
@@ -52,6 +52,7 @@ function P_page() {
                     height={24}
                     className="cursor-pointer hover:scale-110 transition duration-300 ease-in-out"
                     onClick={() => openInNewTab(data.code)}
+                    alt="github"
                   />
                   <img
                     src={web}
@@ -59,6 +60,7 @@ function P_page() {
                     height={24}
                     className="cursor-pointer hover:scale-110 transition duration-300 ease-in-out"
                     onClick={() => openInNewTab(data.demo)}
+                    alt="web"
                   />
                 </div>
                 <div className="text-lg leading-loose mb-2">
@@ -101,4 +103,4 @@ function P_page() {
   );
 }
 
-export default P_page;
+export default ProjectPage;
