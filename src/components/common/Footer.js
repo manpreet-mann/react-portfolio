@@ -46,7 +46,7 @@ function Footer() {
             onClick={() => openInNewTab(contactsData.github)}
           >
             <div className="cursor-pointer w-6 h-6">
-              <img src={github} />
+              <img src={github} alt="Github" />
             </div>
             <div className="cursor-pointer font-medium tracking-wider hover:text-[#FFD9D8] hover:underline-offset-4 hover:scale-105 hover:underline transition ease-in-out duration-300">Github</div>
           </div>
@@ -56,7 +56,7 @@ function Footer() {
             onClick={() => openInNewTab(contactsData.twitter)}
           >
             <div className="cursor-pointer w-6 h-6">
-              <img src={xtwitter} />
+              <img src={xtwitter} alt="Twitter" />
             </div>
             <div className="cursor-pointer font-medium tracking-wider hover:text-[#FFD9D8] hover:underline-offset-4 hover:scale-105 hover:underline transition ease-in-out duration-300">Twitter</div>
           </div>
